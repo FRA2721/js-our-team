@@ -46,7 +46,7 @@ const ourTeam = [
     role: "Graphic Designer",
     imgProfile: "barbara-ramos-graphic-designer.jpg"
     }
-    
+
 ];
 
 // item-loop
@@ -59,8 +59,8 @@ for (let i = 0; i < ourTeam.length; i++) {
     cards.innerHTML += `
 
         <li>
-            <img src="img/${item.imgProfile}" alt="profiles images"> 
-            <div class="card-name"><span class="title"></span>${item["name"]}<div>
-            <div class="card-name"><span class="title"></span>${item.role}</div>
+            <img src="img/${item.imgProfile}" alt="profiles images">
+            <div class="card-name">${item["name"]}<div>
+            <div class="card-role"></span>${item.role}</div>
         </li>`
 }

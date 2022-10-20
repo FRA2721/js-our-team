@@ -14,6 +14,7 @@
 /* body */
 body{
     background-color: rgb(245, 235, 235);
+    font-family: 'Crimson Text', serif;
 }
 
 
@@ -42,6 +43,7 @@ header {
 img {
     max-width: 100%;
     opacity: .5;
+    border: 15px solid white;
     transition-duration: 1s;
 }
 
@@ -50,6 +52,8 @@ img:hover {
     cursor: pointer;
     opacity: 1;
     transform: scale(.8);
+    border-radius: 50%;
+    border: 15px solid white;
 }
 
 
@@ -92,6 +96,14 @@ li {
 .card-name {
     text-align: center;
     margin-top: 0.2rem;
+    color: brown;
+}
+
+/* card-role */
+.card-role{
+    text-align: center;
+    margin-top: 0.2rem;
+    color: burlywood;
 }
 
 
