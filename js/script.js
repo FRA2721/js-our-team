@@ -60,7 +60,7 @@ for (let i = 0; i < ourTeam.length; i++) {
 
         <li>
             <img src="img/${item.imgProfile}" alt="profiles images">
-            <div class="card-name">${item["name"]}<div>
-            <div class="card-role"></span>${item.role}</div>
+            <a href="#" title="click me!"><div class="card-name">${item["name"]}<div></a>
+            <div class="card-role">${item.role}</div>
         </li>`
 }
